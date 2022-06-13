@@ -1,0 +1,41 @@
+<ul>
+	{% for publication in site.data.publications.publications %}
+		{% if include.show == "featured" %}
+			{% if publication.featured %}
+				<li>{%if publication.publication_file != "" %}
+						<a href="{{ '/publications/' | append: publication.publication_file | relative_url }}" target="_blank">{{publication.title}}</a>,
+					{% elsif publication.publication_url != "" %}
+						<a href="{{publication.publication_url}}" target="_blank">{{publication.title}}</a>,
+					{% else %}
+						{{publication.title}},
+					{% endif %}
+					{{publication.author}},
+					{%if publication.conference_url != "" %}
+						<i><a href="{{publication.conference_url}}" target="_blank">{{publication.conference}}</a></i>,
+					{% else %}
+						{{publication.conference}},
+					{% endif %}
+					{{publication.year}}
+					{%if publication.publication_file != "" %}[pdf]{% endif %}
+				</li>
+			{% endif %}
+		{% else %}
+				<li>{%if publication.publication_file != "" %}
+						<a href="{{ '/publications/' | append: publication.publication_file | relative_url }}" target="_blank">{{publication.title}}</a>,
+					{% elsif publication.publication_url != "" %}
+						<a href="{{publication.publication_url}}" target="_blank">{{publication.title}}</a>,
+					{% else %}
+						{{publication.title}},
+					{% endif %}
+					{{publication.author}},
+					{%if publication.conference_url != "" %}
+						<i><a href="{{publication.conference_url}}" target="_blank">{{publication.conference}}</a></i>,
+					{% else %}
+						{{publication.conference}},
+					{% endif %}
+					{{publication.year}}
+					{%if publication.publication_file != "" %}[pdf]{% endif %}
+				</li>
+		{% endif %}
+	{% endfor %}
+</ul>

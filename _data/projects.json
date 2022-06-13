@@ -1,0 +1,102 @@
+{
+	"projects": [
+		{	
+			"year": ,
+			"title": "MonetDBLite",
+			"description": "",
+			"project_url": "https://github.com/MonetDB/MonetDBLite-C",
+			"featured": true
+		},
+		{	
+			"year": ,
+			"title": "MonetDB.R",
+			"description": "MonetDB to R Connector",
+			"project_url": "https://github.com/hannesmuehleisen/MonetDBLite-R",
+			"featured": true
+		},
+		{	
+			"year": ,
+			"title": "Renjin DBI Connectors",
+			"description": "",
+			"project_url": "https://github.com/hannesmuehleisen/renjin-dbi",
+			"featured": false
+		},
+		{	
+			"year": ,
+			"title": "Wikistats",
+			"description": "Wikipedia page popularity visualization",
+			"project_url": "http://wikistats.ins.cwi.nl/#Netherlands|Germany",
+			"featured": true
+		},
+		{	
+			"year": ,
+			"title": "npm monetdb",
+			"description": "MonetDB to node.js Connector",
+			"project_url": "https://www.npmjs.org/package/monetdb",
+			"featured": false
+		},
+		{	
+			"year": ,
+			"title": "Fotofalle Times Square",
+			"description": "",
+			"project_url": "https://twitter.com/fotofalle_nycts",
+			"featured": true
+		},
+		{	
+			"year": 2013,
+			"title": "Neverland",
+			"description": "Cache-Conscious distributed SQL",
+			"project_url": "https://github.com/hannesmuehleisen/neverland",
+			"featured": false
+		},
+		{	
+			"year": 2012,
+			"title": "Appening Amsterdam",
+			"description": "",
+			"project_url": "http://www.appening.at/",
+			"featured": false
+		},
+		{	
+			"year": 2012,
+			"title": "Web Data Commons",
+			"description": "",
+			"project_url": "http://www.webdatacommons.org/",
+			"featured": false
+		},
+		{	
+			"year": 2012,
+			"title": "Digitised Manuscripts to Europeana",
+			"description": "",
+			"project_url": "http://www.dm2e.eu/",
+			"featured": false
+		},
+		{	
+			"year": "2010-2012",
+			"title": "Self-Organized Semantic Storage Service (S4)",
+			"description": "",
+			"project_url": "http://digipolis.ag-nbi.de/",
+			"featured": false
+		},
+		{	
+			"year": 2009,
+			"title": "Policy enabled Linked Data Server",
+			"description": "",
+			"project_url": "http://pelds.u0d.de/",
+			"featured": false
+		},
+		{	
+			"year": "2008-2009",
+			"title": "Loomp",
+			"description": "Web 3.0 Content Authoring",
+			"project_url": "http://loomp.org/",
+			"featured": true
+		},
+		{	
+			"year": 2008,
+			"title": "Researchers Map",
+			"description": "",
+			"project_url": "http://researchersmap.informatik.hu-berlin.de/",
+			"featured": true
+		},
+	]
+}

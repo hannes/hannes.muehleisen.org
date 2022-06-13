@@ -1,0 +1,17 @@
+<ul>
+	{% for project in site.data.projects.projects %}
+		{% if include.show == "featured" %}
+			{% if project.featured %}
+			<li>
+				{{project.title}}
+				{%if project.description != "" %}– {{ project.description }}{% endif %}
+			</li>
+			{% endif %}
+		{% else %}
+			<li>
+				{{project.title}}
+				{%if project.description != "" %}– {{ project.description }}{% endif %}
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>

@@ -1,0 +1,464 @@
+{
+	"publications": [
+		{	
+			"year": 2020,
+			"title": "Data Management for Data Science - Towards Embedded Analytics",
+			"author": "Mark Raasveldt and Hannes Mühleisen",
+			"publication_file": "CIDR2020-raasveldt-muehleisen-duckdb.pdf",
+			"publication_url": "",
+			"conference": "Conference on Innovative Data Systems Research (CIDR)", 
+			"conference_url": "http://www.cidrdb.org/cidr2020/", 
+			"featured": true
+		},
+		{	
+			"year": 2020,
+			"title": "Progressive Indexes: Indexing for Interactive Data Analysis",
+			"author": "Pedro Holanda, Mark Raasveldt, Stefan Manegold and Hannes Mühleisen",
+			"publication_file": "",
+			"publication_url": "",
+			"conference": "46rd International Conference on Very Large Data Bases (VLDB2020)", 
+			"conference_url": "http://www.vldb.org/2020/", 
+			"featured": false
+		},
+		{
+			"year": 2019,
+			"title": "DuckDB: an Embeddable Analytical Database",
+			"author": "Mark Raasveldt and Hannes Mühleisen",
+			"publication_file": "SIGMOD2019-demo-duckdb.pdf",
+			"publication_url": "",
+			"conference": "2019 ACM SIGMOD/PODS International Conference on Management of Data (SIGMOD'19, Demo)", 
+			"conference_url": "http://sigmod2019.org/sigmod_demo_papers", 
+			"featured": true
+		},
+		{
+			"year": 2019,
+			"title": "Relational Queries with a Tensor Processing Unit",
+			"author": "Pedro Holanda and Hannes Mühleise",
+			"publication_file": "",
+			"publication_url": "",
+			"conference": "15th International Workshop on Data Management on New Hardware (DaMoN 2019, Short Paper)", 
+			"conference_url": "https://sites.google.com/view/damon2019/home-damon-2019", 
+			"featured": false
+		},
+		{
+			"year": 2018,
+			"title": "Automatic Generation of a Hybrid Query Execution Engine",
+			"author": "Aleksei Kashuba and Hannes Mühleisen",
+			"publication_file": "",
+			"publication_url": "https://arxiv.org/pdf/1808.05448.pdf",
+			"conference": "arXiv preprint", 
+			"conference_url": "", 
+			"featured": false
+		},
+		{
+			"year": 2018,
+			"title": "MonetDBLite: An Embedded Analytical Database",
+			"author": "Mark Raasveldt and Hannes Mühleisen",
+			"publication_file": "",
+			"publication_url": "https://arxiv.org/pdf/1805.08520.pdf",
+			"conference": "arXiv preprint", 
+			"conference_url": "", 
+			"featured": false
+		},
+		{
+			"year": 2018,
+			"title": "Database-Inspired Optimizations for Statistical Analysis",
+			"author": "Hannes Mühleisen, Alexander Bertram and Maarten-Jan Kallen",
+			"publication_file": "",
+			"publication_url": "https://hannes.muehleisen.org/jss-muehleisen-renjin.pdf",
+			"conference": "Journal of Statistical Software", 
+			"conference_url": "https://www.jstatsoft.org/article/view/v087i04", 
+			"featured": false
+		},
+		{
+			"year": 2018,
+			"title": "Fair Benchmarking Considered Difficult: Common Pitfalls In Database Performance Testing",
+			"author": "Mark Raasveldt, Pedro Holanda, Tim Gubner and Hannes Mühleisen",
+			"publication_file": "DBTEST2018-performance-testing.pdf",
+			"publication_url": "",
+			"conference": "7th International Workshop on Testing Database Systems", 
+			"conference_url": "http://dbtest.dima.tu-berlin.de/", 
+			"featured": false
+		},
+		{
+			"year": 2018,
+			"title": "Fast in-database cross-matching of high-cadence, high-density source lists with an up-to-date sky model",
+			"author": "Bart Scheers, Pim Schellart, Arjen van Elteren, Martin Kersten, Hannes Mühleisen, Steven Bloemen and Paul Groot",
+			"publication_file": "1-s2.0-S2213133717300549-main.pdf",
+			"publication_url": "",
+			"conference": "Astronomy and Computing", 
+			"conference_url": "https://www.journals.elsevier.com/astronomy-and-computing", 
+			"featured": false
+		},
+		{
+			"year": 2018,
+			"title": "Deep Integration of Machine Learning Into Column Stores",
+			"author": "Mark Raasveldt, Pedro Holanda, Hannes Mühleisen and Stefan Manegold",
+			"publication_file": "EDBT2018SP-deep-integration.pdf",
+			"publication_url": "",
+			"conference": "21st International Conference on Extending Database Technology (EDBT 2018)", 
+			"conference_url": "http://edbticdt2018.at/", 
+			"featured": false
+		},
+		{
+			"year": 2017,
+			"title": "Don't Hold My Data Hostage - A Case For Client Protocol Redesign",
+			"author": "Mark Raasveldt and Hannes Mühleisen",
+			"publication_file": "p852-muehleisen.pdf",
+			"publication_url": "",
+			"conference": "43rd International Conference on Very Large Data Bases (VLDB2017)", 
+			"conference_url": "http://www.vldb.org/2017/", 
+			"featured": true
+		},
+		{
+			"year": 2017,
+			"title": "Multi-Hypothesis CSV parsing",
+			"author": "Till Döhmen, Hannes Mühleisen and Peter Boncz",
+			"publication_file": "ssdbm2017-muehleisen-csvs.pdf",
+			"publication_url": "",
+			"conference": "29th International Conference on Scientific and Statistical Database Management (SSDBM2017)", 
+			"conference_url": "http://ssdbm2017.eecs.northwestern.edu/", 
+			"featured": false
+		},
+		{
+			"year": 2017,
+			"title": "Scaling Column Imprints using Advanced Vectorization",
+			"author": "Lefteris Sidirourgos and Hannes Mühleisen",
+			"publication_file": "damon2017-simd-imprints.pdf",
+			"publication_url": "",
+			"conference": "Thirteenth International Workshop on Data Management on New Hardware (DaMoN 2017)", 
+			"conference_url": "http://daslab.seas.harvard.edu/damon2017/", 
+			"featured": false
+		},
+		{
+			"year": 2016,
+			"title": "Vectorized UDFs in Column-Stores",
+			"author": "Mark Raasveldt and Hannes Mühleisen",
+			"publication_file": "SSDBM2016-raasveldt-muehleisen-udfs-column-stores.pdf",
+			"publication_url": "",
+			"conference": "28th International Conference on Scientific and Statistical Database Management (SSDBM2016)", 
+			"conference_url": "http://ssdbm2016.org/", 
+			"featured": true
+		},
+		{
+			"year": 2016,
+			"title": "Column Store for GWAC: A High Cadence High Density Large-Scale Astronomical Lightcurve Pipeline and Distributed Shared-Nothing Database",
+			"author": "Meng Wan, Chao Wu, Sjoerd Mullender, Hannes Mühleisen, Bart Scheers, Ying Zhang, Niels Nes, Martin Kersten and Jianyan Wei",
+			"publication_file": "pasp-2016-wan.pdf",
+			"publication_url": "",
+			"conference": "Publications of the Astronomical Society of the Pacific", 
+			"conference_url": "http://iopscience.iop.org/journal/1538-3873", 
+			"featured": false
+		},
+		{
+			"year": 2015,
+			"title": "Uniqueness, Density, and Keyness: Exploring Class Hierarchies",
+			"author": "Anja Jentzsch, Hannes Mühleisen and Felix Naumann",
+			"publication_file": "",
+			"publication_url": "http://ceur-ws.org/Vol-1426/paper-03.pdf",
+			"conference": "Sixth International Workshop on Consuming Linked Data (COLD2015)", 
+			"conference_url": "http://www.dcc.uchile.cl/cold2015/", 
+			"featured": false
+		},
+		{
+			"year": 2015,
+			"title": "A round table for multi-disciplinary research on Geospatial and Climate Data",
+			"author": "Romulo Goncalves, Milena Ivanova, Kostis Kyzirakos, Foteini Alvanaki, Oscar Rubi-Martinez and Hannes Mühleisen",
+			"publication_file": "",
+			"publication_url": "http://oai.cwi.nl/oai/asset/23448/23448D.pdf",
+			"conference": "11th IEEE International Conference on eScience", 
+			"conference_url": "http://escience2015.mnm-team.org/", 
+			"featured": false
+		},
+		{
+			"year": 2015,
+			"title": "Capturing the Laws of (Data) Nature",
+			"author": "Hannes Mühleisen, Martin Kersten and Stefan Manegold",
+			"publication_file": "CIDR2015-muehleisen-models.pdf",
+			"publication_url": "",
+			"conference": "7th Biennial Conference on Innovative Data Systems Research (CIDR)", 
+			"conference_url": "http://www.cidrdb.org/cidr2015/", 
+			"featured": false
+		},
+		{
+			"year": 2015,
+			"title": "Structural footprints of 12 cities, Calendar 2015",
+			"author": "Hannes Mühleisen",
+			"publication_file": "mupkal-2015-v5.pdf",
+			"publication_url": "",
+			"conference": "Mühleisen + Partner Freie Architekten", 
+			"conference_url": "http://muehleisen-partner.de/", 
+			"featured": false
+		},
+		{
+			"year": 2014,
+			"title": "Efficient Data Management and Statistics with Zero-Copy Integration",
+			"author": "Jonathan Lajus and Hannes Mühleisen",
+			"publication_file": "ssdbm2014-r-embedded-monetdb-cr.pdf",
+			"publication_url": "",
+			"conference": "26th International Conference on Scientific and Statistical Database Management (SSDBM2014)", 
+			"conference_url": "http://ssdbm2014.org/", 
+			"featured": false
+		},
+		{
+			"year": 2014,
+			"title": "Old Dogs Are Great at New Tricks: Column Stores for IR Prototyping",
+			"author": "Hannes Mühleisen, Thaer Samar , Jimmy Lin and Arjen de Vries",
+			"publication_file": "SIGIR2014-column-stores-ir-prototyping.pdf",
+			"publication_url": "",
+			"conference": "The 37th annual ACM SIGIR conference (SIGIR2014)", 
+			"conference_url": "http://sigir.org/sigir2014/", 
+			"featured": false
+		},
+		{
+			"year": 2014,
+			"title": "Weaving the Web(VTT) of Data",
+			"author": "Thomas Steiner, Hannes Mühleisen, Ruben Verborgh, Pierre-Antoine Champin, Benoît Encelle and Yannick Prié",
+			"publication_file": "ldow2014_paper_11.pdf",
+			"publication_url": "",
+			"conference": "Linked Data on the Web (LDOW2014)", 
+			"conference_url": "http://events.linkeddata.org/ldow2014/", 
+			"featured": false
+		},
+		{
+			"year": 2014,
+			"title": "Column Stores as an IR Prototyping Tool",
+			"author": "Hannes Mühleisen, Thaer Samar , Jimmy Lin and Arjen de Vries",
+			"publication_file": "ECIR2014-demo-monetdb-ir.pdf",
+			"publication_url": "",
+			"conference": "The 36th European Conference on Information Retrieval (ECIR2014, Demo)", 
+			"conference_url": "http://ecir2014.org/", 
+			"featured": false
+		},
+		{
+			"year": 2013,
+			"title": "Distribution-Oblivious Databases",
+			"author": "Hannes Mühleisen",
+			"publication_file": "",
+			"publication_url": "http://dbdbd.nl/wp-content/uploads/presentation2.pdf",
+			"conference": "Dutch-Belgian Database Day 2013", 
+			"conference_url": "http://dbdbd.nl/", 
+			"featured": false
+		},
+		{
+			"year": 2013,
+			"title": "Deployment of RDFa, Microdata, and Microformats on the Web – A Quantitative Analysis",
+			"author": "Christian Bizer, Kai Eckert, Robert Meusel, Hannes Mühleisen, Michael Schuhmacher and Johanna Völker",
+			"publication_file": "Bizer-etal-DeploymentRDFaMicrodataMicroformats-ISWC-InUse-2013.pdf",
+			"publication_url": "",
+			"conference": "The 12th International Semantic Web Conference (ISWC2013)", 
+			"conference_url": "http://iswc2013.semanticweb.org/", 
+			"featured": false
+		},
+		{
+			"year": 2013,
+			"title": "Best of Both Worlds – Relational Databases and Statistics",
+			"author": "Hannes Mühleisen and Thomas Lumley",
+			"publication_file": "SSDBM2013-databases-and-statistics.pdf",
+			"publication_url": "",
+			"conference": "25th International Conference on Scientific and Statistical Database Management (SSDBM2013)", 
+			"conference_url": "http://ssdbm2013.org/", 
+			"featured": false
+		},
+		{
+			"year": 2013,
+			"title": "Peak Performance – Remote Memory Revisited",
+			"author": "Hannes Mühleisen, Romulo Goncalves and Martin Kersten",
+			"publication_file": "DaMoN2013-remote-memory.pdf",
+			"publication_url": "",
+			"conference": "Ninth International Workshop on Data Management on New Hardware (DaMoN 2013)", 
+			"conference_url": "http://www.cs.utoronto.ca/damon2013/", 
+			"featured": false
+		},
+		{
+			"year": 2013,
+			"title": "Babel 2012 - Web Language Connections",
+			"author": "Hannes Mühleisen",
+			"publication_file": "",
+			"publication_url": "https://github.com/norvigaward/2012-naward25/wiki/Babel-2012---Web-Language-Connections",
+			"conference": "Technical Report, Database Architectures Group, CWI, 2nd place at 2012/13 Norvig Web Data Science Award", 
+			"conference_url": "", 
+			"featured": false
+		},
+		{
+			"year": 2012,
+			"title": "Architecture-Independent Distributed Query Processing",
+			"author": "Hannes Mühleisen",
+			"publication_file": "",
+			"publication_url": "https://refubium.fu-berlin.de/discover?filtertype_0=mycoreId&filter_relational_operator_0=equals&filter_0=FUDISS_derivate_000000012783",
+			"conference": "Dissertation, Freie Universität Berlin", 
+			"conference_url": "", 
+			"featured": false
+		},
+		{
+			"year": 2012,
+			"title": "Web Data Commons - Vocabulary Usage by Pay-Level Domain",
+			"author": "Hannes Mühleisen",
+			"publication_file": "",
+			"publication_url": "http://webdatacommons.org/vocabulary-usage-analysis/index.html",
+			"conference": "Technical Report, Web-Based Systems Group, Freie Universität Berlin", 
+			"conference_url": "", 
+			"featured": false
+		},
+		{
+			"year": 2012,
+			"title": "Web Data Commons - Extracting Structured Data from Two Large Web Corpora",
+			"author": "Hannes Mühleisen and Christian Bizer",
+			"publication_file": "ldow2012-inv-paper-2.pdf",
+			"publication_url": "",
+			"conference": "Linked Data on the Web (LDOW2012)", 
+			"conference_url": "http://events.linkeddata.org/ldow2012/", 
+			"featured": false
+		},
+		{
+			"year": 2012,
+			"title": "Sieve: Linked Data Quality Assessment and Fusion",
+			"author": "Pablo Mendes, Hannes Mühleisen and Christian Bizer",
+			"publication_file": "",
+			"publication_url": "https://www.wiwiss.fu-berlin.de/en/institute/pwo/bizer/research/publications/Mendes-Muehleisen-Bizer-Sieve-LWDM2012.pdf",
+			"conference": "2nd International Workshop on Linked Web Data Management (LWDM 2012)", 
+			"conference_url": "http://pamir.dia.uniroma3.it:8080/LWDM2012/Home.html", 
+			"featured": false
+		},
+		{
+			"year": 2012,
+			"title": "Large-Scale Retrieval and Reasoning on Semantic Data using Swarms",
+			"author": "Hannes Mühleisen and Kathrin Dentler",
+			"publication_file": "cim-swarm-reasoning.pdf",
+			"publication_url": "",
+			"conference": "IEEE Computational Intelligence Magazine, Vol. 7 Iss. 2", 
+			"conference_url": "http://ieee-cis.org/pubs/magazine/", 
+			"featured": false
+		},
+		{
+			"year": 2011,
+			"title": "Data Location Optimization for a Self-Organized Distributed Storage System",
+			"author": "Hannes Mühleisen, Tilman Walther and Robert Tolksdorf",
+			"publication_file": "NaBIC2011-muehleisen-s4-movement.pdf",
+			"publication_url": "",
+			"conference": "2011 Third World Congress on Nature and Biologically Inspired Computing (NaBIC2011)", 
+			"conference_url": "http://nabic.ujn.edu.cn/nabic11/", 
+			"featured": false
+		},
+		{
+			"year": 2011,
+			"title": "A Survey on Self-Organized Semantic Storage",
+			"author": "Hannes Mühleisen, Tilman Walther and Robert Tolksdorf",
+			"publication_file": "IJWIS-muehleisen-survey-distributed-storage.pdf",
+			"publication_url": "",
+			"conference": "International Journal of Web Information Systems (IJWIS), Vol. 7 Iss. 3", 
+			"conference_url": "http://www.emeraldinsight.com/journals.htm?articleid=1949283&show=abstract", 
+			"featured": false
+		},
+		{
+			"year": 2011,
+			"title": "Web-scale Range Queries in a Self-Organized Storage Service",
+			"author": "Hannes Mühleisen, Tilman Walther and Robert Tolksdorf",
+			"publication_file": "WEBKR3-muehleisen-rangequeries.pdf",
+			"publication_url": "",
+			"conference": "2011 International Workshop on Web-scale Knowledge Representation, Retrieval, and Reasoning (Web-KR3 2011)", 
+			"conference_url": "http://www.wici-lab.org/wici/web-kr3/2011/", 
+			"featured": false
+		},
+		{
+			"year": 2011,
+			"title": "Query Processing in a Self-Organized Storage System",
+			"author": "Hannes Mühleisen",
+			"publication_file": "VLDB2011PHD-queryprocessing-muehleisen.pdf",
+			"publication_url": "",
+			"conference": "37th International Conference on Very Large Data Bases (VLDB2011) - PhD Workshop", 
+			"conference_url": "http://www.vldb.org/2011/?q=node/16", 
+			"featured": false
+		},
+		{
+			"year": 2011,
+			"title": "Multi-Level Indexing in a Distributed Self-Organized Storage System",
+			"author": "Hannes Mühleisen, Tilman Walther and Robert Tolksdorf",
+			"publication_file": "CEC2011-muehleisen-s4-indexing.pdf",
+			"publication_url": "",
+			"conference": "2011 IEEE Congress on Evolutionary Computation (CEC2011)", 
+			"conference_url": "http://cec2011.org/", 
+			"featured": false
+		},
+		{
+			"year": 2011,
+			"title": "Augmenting the Web of Data using Referers",
+			"author": "Hannes Mühleisen and Anja Jentzsch",
+			"publication_file": "LDOW2011-muehleisen-linkeddata-referers.pdf",
+			"publication_url": "",
+			"conference": "Linked Data on the Web (LDOW2011)", 
+			"conference_url": "http://events.linkeddata.org/ldow2011/", 
+			"featured": false
+		},
+		{
+			"year": 2010,
+			"title": "Configuring a Self-Organized Semantic Storage Service",
+			"author": "Hannes Mühleisen, Tilman Walther, Anne Augustin, Marko Harasic and Robert Tolksdorf",
+			"publication_file": "SSWS2010-muehleisen-s4.pdf",
+			"publication_url": "",
+			"conference": "6th International Workshop on Scalable Semantic Web Knowledge Base Systems (SSWS2010)", 
+			"conference_url": "http://www.cse.lehigh.edu/~yug2/ssws10/home.htm", 
+			"featured": false
+		},
+		{
+			"year": 2010,
+			"title": "A Self-Organized Semantic Storage Service",
+			"author": "Hannes Mühleisen, Anne Augustin, Tilman Walther, Marko Harasic, Kia Teymourian and Robert Tolksdorf",
+			"publication_file": "iiWAS2010-muehleisen-s4.pdf",
+			"publication_url": "",
+			"conference": "12th International Conference on Information Integration and Web-based Applications & Services (iiWAS2010)", 
+			"conference_url": "http://www.iiwas.org/conferences/iiwas2010/", 
+			"featured": false
+		},
+		{
+			"year": 2010,
+			"title": "User-Defined Rules in a Distributed Address Book",
+			"author": "Hannes Mühleisen and Adrian Paschke",
+			"publication_file": "RULEML2010CH-muehleisen-adressbook.pdf",
+			"publication_url": "",
+			"conference": "RuleML-2010 - 4th International Rule Challenges", 
+			"conference_url": "http://www.csw.inf.fu-berlin.de/ruleml2010/ruleml-2010-challenge.html", 
+			"featured": false
+		},
+		{
+			"year": 2010,
+			"title": "SWRL-based Access Policies for Linked Data",
+			"author": "Hannes Mühleisen, Martin Kost and Johann-Christoph Freytag",
+			"publication_file": "SPOT2010-muehleisen.pdf",
+			"publication_url": "",
+			"conference": "2nd Workshop on Trust and Privacy on the Social and Semantic Web (SPOT2010)", 
+			"conference_url": "http://spot.semanticweb.org/2010/", 
+			"featured": false
+		},
+		{
+			"year": 2010,
+			"title": "Automatic Integration of Metadata into the Web of Linked Data",
+			"author": "Olaf Hartig, Jun Zhao and Hannes Mühleisen",
+			"publication_file": "",
+			"publication_url": "https://www2.informatik.hu-berlin.de/~hartig/files/HartigEtAl_SPOT2010_Demo.pdf",
+			"conference": "2nd Workshop on Trust and Privacy on the Social and Semantic Web (SPOT2010)", 
+			"conference_url": "http://spot.semanticweb.org/2010/", 
+			"featured": false
+		},
+		{
+			"year": 2009,
+			"title": "Zugriffsrichtlinen und Authentifizierung für Linked-Data-Systeme",
+			"author": "Hannes Mühleisen",
+			"publication_file": "da-hm-ld.pdf",
+			"publication_url": "",
+			"conference": "Diploma Thesis, Humboldt-Universität zu Berlin", 
+			"conference_url": "", 
+			"featured": false
+		},
+		{
+			"year": 2009,
+			"title": "Linked Data for Building a Map of Researchers",
+			"author": "Olaf Hartig, Hannes Mühleisen, and Johann-Christoph Freytag",
+			"publication_file": "",
+			"publication_url": "https://www.informatik.hu-berlin.de/de/forschung/gebiete/dbis/fileadmin/research/papers/conferences/2009_sfsw_hartig.pdf",
+			"conference": "Proceedings of the 5th Workshop on Scripting for the Semantic Web (SFSW2009)", 
+			"conference_url": "http://www.semanticscripting.org/SFSW2009/challenge.htm", 
+			"featured": false
+		}
+	]
+}
