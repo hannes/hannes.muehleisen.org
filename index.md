@@ -5,7 +5,7 @@ layout: default
 ## About
 
 
-Dr. Hannes Mühleisen is a creator of the [DuckDB](https://duckdb.org) database management system and Co-founder and CEO of [DuckDB Labs](https://duckdblabs.com). He is also a senior researcher of the [Database Architectures](https://www.cwi.nl/research/groups/database-architectures/database-architectures) group at the [Centrum Wiskunde & Informatica (CWI)](http://www.cwi.nl) in Amsterdam.
+Prof. Dr. Hannes Mühleisen is a creator of the [DuckDB](https://duckdb.org) database management system and Co-founder and CEO of [DuckDB Labs](https://duckdblabs.com). He is a senior researcher at the [Centrum Wiskunde & Informatica (CWI)](http://www.cwi.nl) in Amsterdam. He is also Professor of Data Engineering at [Radboud University](https://www.ru.nl) Nijmegen.
 
 
 ## Selected Publications

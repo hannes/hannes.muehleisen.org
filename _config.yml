@@ -42,8 +42,8 @@ navigation:
     url: /
   - title: Research
     url: /research/
-  # - title: Teaching
-  #   url: /teaching/
+  - title: Teaching
+    url: /teaching/
   # - title: DuckDB
   #   url: /duckdb/
 
