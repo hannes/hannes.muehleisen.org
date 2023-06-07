@@ -12,6 +12,9 @@ $lightgrey: #F2F2F2;
 	div.main{
 		width: calc(100% - 250px); 
 	}
+	div.sidebar .contact > div:first-child{
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 920px){
@@ -116,6 +119,13 @@ $lightgrey: #F2F2F2;
 		position: absolute;
 		font-size: 15px;
 		bottom: 120px/** 20px + puffer px**/; 
+		>div:first-child{
+			width: 55px;
+			img{
+				width: 55px;
+				height: auto;
+			}
+		}
 		h3{
 			font-size: 11px;
 			font-weight: normal;

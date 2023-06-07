@@ -219,6 +219,12 @@ div.sidebar {
     line-height: 1.5;
     font-size: 11.25px; }
     div.sidebar .contact > div:first-child {
+      width: 55px;
+      margin-right: 25px; }
+      div.sidebar .contact > div:first-child img {
+        width: 100%;
+        margin-top: -2px; }
+    div.sidebar .contact > div:nth-child(2) {
       width: 65px;
       color: rgba(0, 0, 0, 0.3); }
     div.sidebar .contact a + a {

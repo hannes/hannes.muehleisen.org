@@ -1,0 +1,14 @@
+_site
+.sass-cache
+.jekyll-metadata
+assets/css/webfont/.DS_Store
+_site/404/index.html
+_site/assets/css/main.css
+_site/assets/css/mobile.css
+_site/duckdb/index.html
+_site/feed.xml
+_site/imprint/index.html
+_site/index.html
+_site/research/index.html
+_site/seminars/example_seminar/index.html
+_site/teaching/index.html
