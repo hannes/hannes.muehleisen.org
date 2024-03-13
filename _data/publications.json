@@ -1,6 +1,16 @@
 {
 	"publications": [
 		{	
+			"year": 2024,
+			"title": "Robust External Hash Aggregation in the Solid State Age",
+			"author": "Laurens Kuiper and Hannes Mühleisen",
+			"publication_file": "",
+			"publication_url": "",
+			"conference": "40th IEEE International Conference on Data Engineering (ICDE)", 
+			"conference_url": "https://icde2024.github.io", 
+			"featured": true
+		},
+		{	
 			"year": 2023,
 			"title": "These Rows Are Made for Sorting and That's Just What We'll Do",
 			"author": "Laurens Kuiper and Hannes Mühleisen",
@@ -8,7 +18,7 @@
 			"publication_url": "",
 			"conference": "39th IEEE International Conference on Data Engineering (ICDE)", 
 			"conference_url": "https://icde2023.ics.uci.edu", 
-			"featured": true
+			"featured": false
 		},
 		{	
 			"year": 2020,
