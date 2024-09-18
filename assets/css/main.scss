@@ -108,6 +108,7 @@ ul a{
 	-webkit-transition: font-variation-settings .5s;
 	-o-transition: font-variation-settings .5s;
 	transition: font-variation-settings .5s;
+	font-size-adjust: 0.5;
 	&:hover{
 		font-variation-settings: 'wght' 600;
 	}
