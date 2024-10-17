@@ -1,6 +1,16 @@
 {
 	"publications": [
 		{	
+			"year": 2025,
+			"title": "Runtime-Extensible Parsers",
+			"author": "Hannes Mühleisen and Mark Raasveldt",
+			"publication_file": "",
+			"publication_url": "",
+			"conference": "Conference on Innovative Data Systems Research (CIDR)", 
+			"conference_url": "http://www.cidrdb.org/cidr2025/", 
+			"featured": true
+		},
+		{	
 			"year": 2024,
 			"title": "Robust External Hash Aggregation in the Solid State Age",
 			"author": "Laurens Kuiper, Peter Boncz, and Hannes Mühleisen",
