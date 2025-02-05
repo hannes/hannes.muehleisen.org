@@ -3,18 +3,16 @@
 OS=$(uname -s)
 ARCH=$(uname -m)
 
-DIST=
-VER=1.1.3
-eval PREFIX="~/.duckdb/cli"
-INST="${PREFIX}/${VER}"
-LATEST="${PREFIX}/latest"
-
 unzip -h > /dev/null || (echo 'need the unzip utility in $PATH'  1>&2; exit 1)
 curl -h  > /dev/null || (echo 'need the curl utility in $PATH'   1>&2; exit 1)
 
 # figure out latest version
-VERSION=`curl -s https://api.github.com/repos/duckdb/duckdb/releases/latest | grep "tag_name"`
+VER=`curl -s https://api.github.com/repos/duckdb/duckdb/releases/latest | grep "tag_name" | grep -o 'v[0-9]*\.[0-9]*\.[0-9]*'`
+eval PREFIX="~/.duckdb/cli"
+INST="${PREFIX}/${VER}"
+LATEST="${PREFIX}/latest"
 
+DIST=
 
 if [ "${OS}" = "Linux" ]
 then
@@ -38,7 +36,7 @@ fi
 
 
 
-URL="https://github.com/duckdb/duckdb/releases/download/v${VER}/duckdb_cli-${DIST}.zip"
+URL="https://github.com/duckdb/duckdb/releases/download/${VER}/duckdb_cli-${DIST}.zip"
 echo
 echo "*** DuckDB Linux/MacOS installation script, version ${VER} ***"
 echo
