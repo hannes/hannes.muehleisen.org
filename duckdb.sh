@@ -105,3 +105,8 @@ echo
 # esac
 
 # ${INST}/duckdb
+
+echo "To launch DuckDB now, type"
+echo "${INST}/duckdb"
+
+
