@@ -6,8 +6,9 @@ ARCH=$(uname -m)
 unzip -h > /dev/null || (echo 'need the unzip utility in $PATH'  1>&2; exit 1)
 curl -h  > /dev/null || (echo 'need the curl utility in $PATH'   1>&2; exit 1)
 
-# figure out latest version
-VER=`curl -s https://api.github.com/repos/duckdb/duckdb/releases/latest | grep "tag_name" | grep -o 'v[0-9]*\.[0-9]*\.[0-9]*'`
+# figure out latest version, unholy af
+VER=`curl -s https://duckdb.org/data/duckdb-releases.csv | cut -d , -f 2 | head -2 | tail -1`
+echo $VER
 eval PREFIX="~/.duckdb/cli"
 INST="${PREFIX}/${VER}"
 LATEST="${PREFIX}/latest"
@@ -36,7 +37,7 @@ fi
 
 
 
-URL="https://github.com/duckdb/duckdb/releases/download/${VER}/duckdb_cli-${DIST}.zip"
+URL="https://github.com/duckdb/duckdb/releases/download/v${VER}/duckdb_cli-${DIST}.zip"
 echo
 echo "*** DuckDB Linux/MacOS installation script, version ${VER} ***"
 echo
