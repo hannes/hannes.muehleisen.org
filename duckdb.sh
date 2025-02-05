@@ -95,7 +95,7 @@ fi
 
 echo
 echo "Hint: Append the following line to your ~/.profile in order to use the latest version:"
-echo 'export PATH="/Users/hannes/.duckdb/cli/latest":$PATH'
+echo "export PATH='${LATEST}':\$PATH"
 echo
 
 # read -p "Start DuckDB now? [y/n] (default: y)" yn
@@ -104,4 +104,4 @@ echo
 #     [Nn]* ) exit 0;;
 # esac
 
-${INST}/duckdb
+# ${INST}/duckdb
