@@ -8,7 +8,6 @@ curl -h  > /dev/null || (echo 'need the curl utility in $PATH'   1>&2; exit 1)
 
 # figure out latest version, unholy af
 VER=`curl -s https://duckdb.org/data/duckdb-releases.csv | cut -d , -f 2 | head -2 | tail -1`
-echo $VER
 eval PREFIX="~/.duckdb/cli"
 INST="${PREFIX}/${VER}"
 LATEST="${PREFIX}/latest"
