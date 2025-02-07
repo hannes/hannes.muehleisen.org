@@ -5,7 +5,7 @@ ARCH=$(uname -m)
 
 
 command -v curl >/dev/null 2>&1 || { echo >&2 "Required tool curl could not be found  Aborting."; exit 1; }
-command -v gzip >/dev/null 2>&1 || { echo >&2 "Required tool gzip could not be found  Aborting."; exit 1; }
+command -v zcat >/dev/null 2>&1 || { echo >&2 "Required tool zcat could not be found  Aborting."; exit 1; }
 
 # figure out latest version
 VER=`curl -s https://duckdb.org/data/duckdb-releases.csv | cut -d , -f 2 | head -2 | tail -1`
@@ -69,7 +69,7 @@ else
         exit 1
     fi
 
-    curl -L --progress-bar "${URL}" | gzip -d -q > $INST/duckdb && chmod a+x ${INST}/duckdb || exit 1
+    curl -L --progress-bar "${URL}" | zcat > $INST/duckdb && chmod a+x ${INST}/duckdb || exit 1
 
 
     ln -s $INST $LATEST || exit 1
