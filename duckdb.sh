@@ -3,10 +3,11 @@
 OS=$(uname -s)
 ARCH=$(uname -m)
 
-unzip -h > /dev/null || (echo 'need the unzip utility in $PATH'  1>&2; exit 1)
-curl -h  > /dev/null || (echo 'need the curl utility in $PATH'   1>&2; exit 1)
 
-# figure out latest version, unholy af
+command -v curl >/dev/null 2>&1 || { echo >&2 "Required tool curl could not be found  Aborting."; exit 1; }
+command -v gzip >/dev/null 2>&1 || { echo >&2 "Required tool gzip could not be found  Aborting."; exit 1; }
+
+# figure out latest version
 VER=`curl -s https://duckdb.org/data/duckdb-releases.csv | cut -d , -f 2 | head -2 | tail -1`
 eval PREFIX="~/.duckdb/cli"
 INST="${PREFIX}/${VER}"
@@ -36,7 +37,7 @@ fi
 
 
 
-URL="https://github.com/duckdb/duckdb/releases/download/v${VER}/duckdb_cli-${DIST}.zip"
+URL="https://github.com/duckdb/duckdb/releases/download/v${VER}/duckdb_cli-${DIST}.gz"
 echo
 echo "*** DuckDB Linux/MacOS installation script, version ${VER} ***"
 echo
@@ -68,7 +69,7 @@ else
         exit 1
     fi
 
-    curl -L --progress-bar "${URL}" -o ${INST}/duckdb.zip && unzip -q -o ${INST}/duckdb.zip -d $INST duckdb && chmod a+x ${INST}/duckdb && rm ${INST}/duckdb.zip || exit 1
+    curl -L --progress-bar "${URL}" | gzip -d -q > $INST/duckdb && chmod a+x ${INST}/duckdb || exit 1
 
 
     ln -s $INST $LATEST || exit 1
@@ -86,24 +87,16 @@ else
         echo "Failed to execute installed binary :/ ${INST}." 1>&2
         exit 1  
     fi
-
+    echo
     echo "Successfully installed DuckDB binary to ${INST}/duckdb"
+    echo "  with a link from                      ${LATEST}/duckdb"
 fi
 
 
 echo
-echo "Hint: Append the following line to your ~/.profile in order to use the latest version:"
+echo "Hint: Append the following line to your shell profile:"
 echo "export PATH='${LATEST}':\$PATH"
 echo
-
-# read -p "Start DuckDB now? [y/n] (default: y)" yn
-
-# case $yn in
-#     [Nn]* ) exit 0;;
-# esac
-
-# ${INST}/duckdb
-
 echo "To launch DuckDB now, type"
 echo "${LATEST}/duckdb"
 
