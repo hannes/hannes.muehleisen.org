@@ -17,8 +17,8 @@ title: Hannes Mühleisen
 email: hannes@duckdblabs.com
 description: 
 #baseurl: "/hannesmuehleisen/" # the subpath of your site, e.g. /blog
-url: "https://franz-kafka.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: hfmuehleisen
+url: "https://hannes.muehleisen.org" # the base hostname & protocol for your site, e.g. http://example.com
+bluesky_username: hannes.muehleisen.org
 github_username:  hannes
 
 # Build settings
