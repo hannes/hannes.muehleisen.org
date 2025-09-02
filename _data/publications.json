@@ -2,10 +2,20 @@
 	"publications": [
 		{	
 			"year": 2025,
+			"title": "Saving Private Hash Join",
+			"author": "Laurens Kuiper and Paul Groß and Peter Boncz and Hannes Mühleisen",
+			"publication_file": "",
+			"publication_url": "https://www.vldb.org/pvldb/vol18/p2748-kuiper.pdf",
+			"conference": "51st International Conference on Very Large Data Bases (VLDB2025)", 
+			"conference_url": "https://vldb.org/2025/", 
+			"featured": true
+		},
+		{	
+			"year": 2025,
 			"title": "Runtime-Extensible Parsers",
 			"author": "Hannes Mühleisen and Mark Raasveldt",
-			"publication_file": "CIDR2025-muehleisen-raasveldt-extensible-parsers.pdf",
-			"publication_url": "",
+			"publication_file": "",
+			"publication_url": "https://vldb.org/cidrdb/papers/2025/p18-muhleisen.pdf",
 			"conference": "Conference on Innovative Data Systems Research (CIDR)", 
 			"conference_url": "http://www.cidrdb.org/cidr2025/", 
 			"featured": true
@@ -18,7 +28,7 @@
 			"publication_url": "",
 			"conference": "40th IEEE International Conference on Data Engineering (ICDE)", 
 			"conference_url": "https://icde2024.github.io", 
-			"featured": true
+			"featured": false
 		},
 		{	
 			"year": 2023,
