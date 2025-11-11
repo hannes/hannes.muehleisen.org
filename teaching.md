@@ -9,6 +9,7 @@ Hannes Mühleisen is Professor of Data Engineering at [Radboud Universiteit Nijm
 
 
 ## Past Courses
+- since 2025 Data Engineering (RU)
 - 2019-2022 Big Data Infrastructures & Technologies (UvA)
 - 2020 Big Data for Data Science (UvA)
 - 2018 & 2019 Databases (VU)
