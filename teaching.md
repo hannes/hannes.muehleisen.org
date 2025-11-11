@@ -5,7 +5,7 @@ title: Teaching
 
 ## Education
 
-Hannes Mühleisen is Professor of Data Engineering at [Radboud Universiteit Nijmegen](https://www.ru.nl). In the past I have been  (part-time) Assistant Professor at the Universteit van Amsterdam and at the Vrije Universiteit Amsterdam.
+Hannes Mühleisen is [Professor of Data Engineering](https://www.ru.nl/en/people/muhleisen-h) at [Radboud Universiteit Nijmegen](https://www.ru.nl). In the past I have been  (part-time) Assistant Professor at the Universteit van Amsterdam and at the Vrije Universiteit Amsterdam.
 
 
 ## Past Courses
